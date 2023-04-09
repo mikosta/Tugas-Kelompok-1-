@@ -1,0 +1,40 @@
+2023-04-08 23:21:58.961 [info] Log level: Info
+2023-04-08 23:21:58.961 [info] Validating found git in: "git"
+2023-04-08 23:21:58.961 [info] Using git "" from "git"
+2023-04-08 23:21:58.961 [info] > git rev-parse --show-toplevel [45ms]
+2023-04-08 23:21:58.961 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2023-04-08 23:21:58.961 [info] Open repository: /home/mikosta
+2023-04-08 23:21:58.961 [info] > git rev-parse --show-toplevel [53ms]
+2023-04-08 23:21:58.961 [info] > git rev-parse --show-toplevel [15ms]
+2023-04-08 23:21:58.961 [info] > git config --get commit.template [72ms]
+2023-04-08 23:21:58.961 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-08 23:21:58.988 [info] > git rev-parse --show-toplevel [39ms]
+2023-04-08 23:21:59.011 [info] > git rev-parse --show-toplevel [11ms]
+2023-04-08 23:21:59.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+2023-04-08 23:21:59.031 [info] > git rev-parse --show-toplevel [13ms]
+2023-04-08 23:21:59.049 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2023-04-08 23:21:59.052 [info] Open repository: /home/mikosta/Tugas-Kelompok-1-
+2023-04-08 23:21:59.091 [info] > git rev-parse --show-toplevel [31ms]
+2023-04-08 23:21:59.118 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2023-04-08 23:21:59.121 [info] Open repository: /home/mikosta/daa
+2023-04-08 23:21:59.124 [info] > git config --get commit.template [37ms]
+2023-04-08 23:21:59.153 [info] > git config --get commit.template [17ms]
+2023-04-08 23:21:59.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-04-08 23:21:59.175 [info] > git status -z -uall [13ms]
+2023-04-08 23:21:59.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-04-08 23:21:59.205 [info] > git status -z -uall [23ms]
+2023-04-08 23:21:59.224 [info] > git config --get commit.template [19ms]
+2023-04-08 23:21:59.229 [info] > git config --get commit.template [9ms]
+2023-04-08 23:21:59.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-04-08 23:21:59.261 [info] > git status -z -uall [2ms]
+2023-04-08 23:21:59.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2023-04-08 23:21:59.283 [info] > git status -z -uall [13ms]
+2023-04-08 23:21:59.295 [info] > git status -z -uall [266ms] (cancelled)
+2023-04-08 23:21:59.709 [info] > git check-ignore -v -z --stdin [23ms]
+2023-04-08 23:21:59.711 [info] > git check-ignore -v -z --stdin [13ms]
+2023-04-08 23:21:59.712 [info] > git check-ignore -v -z --stdin [6ms]
+2023-04-08 23:22:18.872 [info] > git config --get commit.template [758ms]
+2023-04-08 23:22:18.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-04-08 23:22:19.124 [info] > git status -z -uall [183ms] (cancelled)
+2023-04-08 23:23:36.358 [info] > git show --textconv :class Item:.py [10ms]
+2023-04-08 23:23:36.359 [info] > git ls-files --stage -- /home/mikosta/Tugas-Kelompok-1-/class Item:.py [2ms]

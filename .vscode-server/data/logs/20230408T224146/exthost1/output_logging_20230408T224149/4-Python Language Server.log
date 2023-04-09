@@ -1,0 +1,29 @@
+[Info  - 10:41:53 PM] (234) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 10:41:53 PM] (234) Server root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 10:41:53 PM] (234) Starting service instance "mikosta"
+[Info  - 10:41:53 PM] (234) Auto-indent enabled
+[Info  - 10:41:53 PM] (234) Setting pythonPath for service "mikosta": "/bin/python3"
+[Warn  - 10:41:53 PM] (234) stubPath /home/mikosta/typings is not a valid directory.
+[Info  - 10:41:53 PM] (234) Assuming Python version 3.10
+[Info  - 10:41:54 PM] (234) Found 1 source file
+[Info  - 10:41:54 PM] (234) Background analysis(1) root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 10:41:54 PM] (234) Background analysis(1) started
+[Info  - 10:41:54 PM] (234) Indexer background runner(2) root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 10:41:54 PM] (234) Indexing(2) started
+[Info  - 10:41:55 PM] (234) scanned(2) 38 files over 1 exec env
+[Info  - 10:41:56 PM] (234) indexed(2) 16 files over 1 exec env
+[Info  - 10:41:56 PM] (234) Indexing finished(2).
+[Info  - 10:48:35 PM] (234) Setting pythonPath for service "mikosta": "/bin/python3"
+[Warn  - 10:48:35 PM] (234) stubPath /home/mikosta/typings is not a valid directory.
+[Info  - 10:48:35 PM] (234) Assuming Python version 3.10
+[Info  - 10:48:35 PM] (234) Found 1 source file
+[Info  - 10:48:35 PM] (234) Setting pythonPath for service "mikosta": "/bin/python3"
+[Warn  - 10:48:35 PM] (234) stubPath /home/mikosta/typings is not a valid directory.
+[Info  - 10:48:35 PM] (234) Assuming Python version 3.10
+[Info  - 10:48:35 PM] (234) Found 1 source file
+[Info  - 10:48:36 PM] (234) Indexer background runner(3) root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 10:48:36 PM] (234) Indexing(3) started
+[Info  - 10:48:37 PM] (234) scanned(3) 38 files over 1 exec env
+[Info  - 10:48:37 PM] (234) indexed(3) 16 files over 1 exec env
+[Info  - 10:48:37 PM] (234) Indexing finished(3).
+[Info  - 10:49:17 PM] (234) Found 2 source files

@@ -1,0 +1,18 @@
+2023-04-08 03:36:39.237 [info] 
+
+
+
+
+2023-04-08 03:36:39.302 [info] Extension host agent started.
+2023-04-08 03:36:39.476 [info] [127.0.0.1][266cd08e][ManagementConnection] New connection established.
+2023-04-08 03:36:40.133 [info] [127.0.0.1][3bb0bc5f][ExtensionHostConnection] New connection established.
+2023-04-08 03:36:40.142 [info] [127.0.0.1][3bb0bc5f][ExtensionHostConnection] <142> Launched Extension Host Process.
+2023-04-08 03:51:24.799 [info] Getting Manifest... bierner.markdown-mermaid
+2023-04-08 03:51:24.923 [info] Installing extension: bierner.markdown-mermaid
+2023-04-08 03:51:27.641 [info] Extension signature is verified: bierner.markdown-mermaid
+2023-04-08 03:51:27.878 [info] Extracted extension to /home/mikosta/.vscode-server/extensions/.04aa7545-ecc3-4e87-834d-3f1fcd60d8be: bierner.markdown-mermaid
+2023-04-08 03:51:27.897 [info] Renamed to /home/mikosta/.vscode-server/extensions/bierner.markdown-mermaid-1.18.0
+2023-04-08 03:51:27.901 [info] Extracting extension completed. bierner.markdown-mermaid
+2023-04-08 03:51:27.910 [info] Extension installed successfully: bierner.markdown-mermaid
+2023-04-08 04:36:10.263 [info] [127.0.0.1][266cd08e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-08 04:36:10.453 [info] [127.0.0.1][3bb0bc5f][ExtensionHostConnection] <142> Extension Host Process exited with code: 0, signal: null.

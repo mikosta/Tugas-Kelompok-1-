@@ -1,0 +1,192 @@
+2023-04-08 22:41:49.539 [info] Extension host with pid 137 started
+2023-04-08 22:41:49.574 [info] Lock '/home/mikosta/.vscode-server/data/User/workspaceStorage/b0a9d8285efcd71fefb0f740afb142f5/vscode.lock': Lock acquired.
+2023-04-08 22:41:49.611 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-08 22:41:49.612 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-08 22:41:49.613 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-08 22:41:51.363 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-08 22:41:51.454 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-08 22:41:51.560 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-04-08 22:41:51.949 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-08 22:41:51.949 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-08 22:41:52.203 [info] Eager extensions activated
+2023-04-08 22:41:52.203 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-08 22:41:52.204 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-08 22:41:54.367 [error] Error: Module 'pip' not installed.
+	at au.execModule (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:27794)
+	at async Kd.getPackageInformation (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:19123)
+2023-04-08 22:43:54.181 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-04-08 22:48:36.987 [error] Error: Module 'pip' not installed.
+	at au.execModule (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:27794)
+	at async Kd.getPackageInformation (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:19123)
+2023-04-08 22:49:16.971 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-04-08 23:07:22.202 [info] Extension host terminating: received terminate message from renderer
+2023-04-08 23:07:22.208 [info] Lock '/home/mikosta/.vscode-server/data/User/workspaceStorage/b0a9d8285efcd71fefb0f740afb142f5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-08 23:07:22.543 [error] Canceled: Canceled
+	at new l (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at D (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1481885)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:28919)
+	at n.acceptFrame (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:28725)
+	at E.l (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:27312)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:24635
+	at Socket.s (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-08 23:07:22.544 [error] Canceled: Canceled
+	at new l (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at D (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1481885)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:28919)
+	at n.acceptFrame (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:28725)
+	at E.l (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:27312)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:24635
+	at Socket.s (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-08 23:07:22.544 [error] Canceled: Canceled
+	at new l (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at D (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1481885)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:28919)
+	at n.acceptFrame (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:28725)
+	at E.l (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:27312)
+	at /home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:24635
+	at Socket.s (/home/mikosta/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-08 23:07:22.596 [info] Extension host with pid 137 exiting with code 0

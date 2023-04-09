@@ -1,0 +1,15 @@
+[Info  - 3:36:44 AM] (192) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 3:36:44 AM] (192) Server root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 3:36:44 AM] (192) Starting service instance "mikosta"
+[Info  - 3:36:44 AM] (192) Auto-indent enabled
+[Info  - 3:36:44 AM] (192) Setting pythonPath for service "mikosta": "/bin/python3"
+[Warn  - 3:36:44 AM] (192) stubPath /home/mikosta/typings is not a valid directory.
+[Info  - 3:36:44 AM] (192) Assuming Python version 3.10
+[Info  - 3:36:44 AM] (192) Found 1 source file
+[Info  - 3:36:45 AM] (192) Background analysis(1) root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 3:36:45 AM] (192) Background analysis(1) started
+[Info  - 3:36:45 AM] (192) Indexer background runner(2) root directory: /home/mikosta/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 3:36:45 AM] (192) Indexing(2) started
+[Info  - 3:36:45 AM] (192) scanned(2) 38 files over 1 exec env
+[Info  - 3:36:46 AM] (192) indexed(2) 16 files over 1 exec env
+[Info  - 3:36:46 AM] (192) Indexing finished(2).

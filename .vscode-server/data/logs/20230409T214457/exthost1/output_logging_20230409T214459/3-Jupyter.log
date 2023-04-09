@@ -1,0 +1,20 @@
+Visual Studio Code (1.77.1, wsl, desktop)
+Jupyter Extension Version: 2023.3.1000892223.
+Python Extension Version: 2023.6.0.
+Workspace folder /home/mikosta
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 21:45:01.089: LSP Notebooks experiment is enabled
+warn 21:45:02.913: Failed to get activated env vars for /bin/python3 in 1188ms
+info 21:45:02.955: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 21:45:03.107: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 21:45:03.310: Process Execution: > /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 21:45:03.899: interpreterPackages getPackageInformation, Class name = Kd, completed in 2175ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/bin/python3","sysPrefix":"/usr","displayPath":{"$mid":1,"fsPath":"/bin/python3","path":"/bin/python3","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/bin/python3","external":"file:///bin/python3","path":"/bin/python3","scheme":"file"},"displayName":"","envType":"Unknown","isCondaEnvWithoutPython":false,"version":{"major":3,"minor":10,"patch":6,"raw":"3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]"}}} su [Error]: Module 'pip' not installed.
+    at au.execModule (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:27794)
+    at Kd.getPackageInformation (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:19123) {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}

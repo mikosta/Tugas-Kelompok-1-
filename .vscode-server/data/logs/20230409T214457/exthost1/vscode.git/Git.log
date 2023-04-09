@@ -1,0 +1,50 @@
+2023-04-09 21:45:02.664 [info] Log level: Info
+2023-04-09 21:45:02.664 [info] Validating found git in: "git"
+2023-04-09 21:45:02.664 [info] Using git "2.34.1" from "git"
+2023-04-09 21:45:02.664 [info] > git rev-parse --show-toplevel [757ms]
+2023-04-09 21:45:02.694 [info] > git rev-parse --git-dir --git-common-dir [84ms]
+2023-04-09 21:45:02.705 [info] Open repository: /home/mikosta
+2023-04-09 21:45:02.777 [info] > git rev-parse --show-toplevel [62ms]
+2023-04-09 21:45:02.862 [info] > git rev-parse --show-toplevel [76ms]
+2023-04-09 21:45:02.876 [info] > git config --get commit.template [147ms]
+2023-04-09 21:45:02.886 [info] > git rev-parse --show-toplevel [12ms]
+2023-04-09 21:45:02.918 [info] > git rev-parse --show-toplevel [23ms]
+2023-04-09 21:45:02.959 [info] > git rev-parse --show-toplevel [32ms]
+2023-04-09 21:45:02.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [62ms]
+2023-04-09 21:45:03.020 [info] > git rev-parse --show-toplevel [50ms]
+2023-04-09 21:45:03.063 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2023-04-09 21:45:03.072 [info] Open repository: /home/mikosta/Tugas-Kelompok-1-
+2023-04-09 21:45:03.158 [info] > git rev-parse --show-toplevel [70ms]
+2023-04-09 21:45:03.213 [info] > git rev-parse --git-dir --git-common-dir [36ms]
+2023-04-09 21:45:03.227 [info] Open repository: /home/mikosta/daa
+2023-04-09 21:45:03.234 [info] > git config --get commit.template [80ms]
+2023-04-09 21:45:03.335 [info] > git config --get commit.template [51ms]
+2023-04-09 21:45:03.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2023-04-09 21:45:03.486 [info] > git status -z -uall [82ms]
+2023-04-09 21:45:03.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2023-04-09 21:45:03.611 [info] > git status -z -uall [40ms]
+2023-04-09 21:45:03.612 [info] > git config --get commit.template [65ms]
+2023-04-09 21:45:03.745 [info] > git config --get commit.template [68ms]
+2023-04-09 21:45:03.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [82ms]
+2023-04-09 21:45:03.775 [info] > git status -z -uall [787ms] (cancelled)
+2023-04-09 21:45:03.775 [info] > git status -z -uall [14ms]
+2023-04-09 21:45:03.879 [info] > git check-ignore -v -z --stdin [75ms]
+2023-04-09 21:45:03.880 [info] > git check-ignore -v -z --stdin [66ms]
+2023-04-09 21:45:03.880 [info] > git check-ignore -v -z --stdin [56ms]
+2023-04-09 21:45:03.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+2023-04-09 21:45:03.922 [info] > git status -z -uall [24ms]
+2023-04-09 21:50:50.378 [info] > git config --get commit.template [83ms]
+2023-04-09 21:50:50.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-04-09 21:50:52.715 [info] > git status -z -uall [2207ms] (cancelled)
+2023-04-09 21:56:15.306 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-09 21:56:18.117 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-09 21:56:23.443 [info] > git show --textconv :class Item:.py [72ms]
+2023-04-09 21:56:23.448 [info] > git ls-files --stage -- /home/mikosta/Tugas-Kelompok-1-/class Item:.py [10ms]
+2023-04-09 22:03:43.959 [warning] ENOENT: no such file or directory, open '/home/mikosta/Tugas-Kelompok-1-/.git/HEAD'
+2023-04-09 22:03:44.004 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mikosta/Tugas-Kelompok-1-/.git/config'
+2023-04-09 22:03:44.054 [warning] ENOENT: no such file or directory, open '/home/mikosta/Tugas-Kelompok-1-/.git/HEAD'
+2023-04-09 22:03:44.104 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mikosta/Tugas-Kelompok-1-/.git/config'
+2023-04-09 22:03:44.774 [info] > git check-ignore -v -z --stdin [14ms]
+2023-04-09 22:03:44.776 [info] > git check-ignore -v -z --stdin [5ms]
+2023-04-09 22:03:52.834 [info] > git ls-files --stage -- /home/mikosta/Tugas-Kelompok-1-/class Item:.py [2ms]
+2023-04-09 22:03:52.860 [info] > git show --textconv :Tugas-Kelompok-1-/class Item:.py [1ms]

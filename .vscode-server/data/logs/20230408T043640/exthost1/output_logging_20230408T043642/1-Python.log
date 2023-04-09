@@ -1,0 +1,13 @@
+Experiment 'pythonPromptNewToolsExt' is active
+Experiment 'pythonSurveyNotificationcf' is active
+> conda info --json
+Python interpreter path: /bin/python3
+> /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> /bin/python3 ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/testing_tools/unittest_discovery.py ./Tugas-Kelompok-1- *test.py
+cwd: .
+> /bin/python3 ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/testing_tools/unittest_discovery.py ./Tugas-Kelompok-1- *test.py
+cwd: .
+> /bin/python3 ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/testing_tools/unittest_discovery.py ./Tugas-Kelompok-1- *test.py
+cwd: .

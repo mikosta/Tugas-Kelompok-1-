@@ -1,0 +1,5 @@
+[INFO] [auth] [2023-04-08T16:23:10.072Z] Invalid copilot token: missing token: 403 
+[ERROR] [default] [2023-04-08T16:23:10.077Z] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found."
+[INFO] [auth] [2023-04-08T16:23:10.087Z] Invalid copilot token: missing token: 403 
+[INFO] [auth] [2023-04-08T16:23:19.005Z] Invalid copilot token: missing token: 403 
+[ERROR] [default] [2023-04-08T16:23:19.006Z] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found."

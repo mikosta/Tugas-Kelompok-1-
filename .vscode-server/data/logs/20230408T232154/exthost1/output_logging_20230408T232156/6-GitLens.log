@@ -1,0 +1,2 @@
+[2023-04-08 17:44:49.642] [GIT  ] [/home/mikosta/Tugas-Kelompok-1-] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' • 33 ms
+

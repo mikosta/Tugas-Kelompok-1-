@@ -1,0 +1,21 @@
+2023-04-09 21:44:59.713 [info] Extension host with pid 163 started
+2023-04-09 21:44:59.740 [info] Lock '/home/mikosta/.vscode-server/data/User/workspaceStorage/b0a9d8285efcd71fefb0f740afb142f5/vscode.lock': Lock acquired.
+2023-04-09 21:44:59.809 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-09 21:44:59.810 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-09 21:44:59.810 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-09 21:45:01.085 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-09 21:45:01.179 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-09 21:45:01.227 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-09 21:45:01.227 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-09 21:45:01.395 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-04-09 21:45:01.843 [info] Eager extensions activated
+2023-04-09 21:45:01.844 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-09 21:45:01.845 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-09 21:45:01.845 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-04-09 21:45:01.845 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-04-09 21:45:04.915 [error] Error: Module 'pip' not installed.
+    at au.execModule (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:27794)
+    at Kd.getPackageInformation (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:19123)
+2023-04-09 21:50:48.701 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-04-09 21:50:50.772 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2023-04-09 22:02:23.467 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

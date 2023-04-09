@@ -1,0 +1,26 @@
+Visual Studio Code (1.77.1, wsl, desktop)
+Jupyter Extension Version: 2023.3.1000892223.
+Python Extension Version: 2023.6.0.
+Workspace folder /home/mikosta
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 03:36:42.765: LSP Notebooks experiment is enabled
+warn 03:36:43.673: Failed to get activated env vars for /bin/python3 in 425ms
+info 03:36:43.686: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 03:36:43.777: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 03:36:43.861: Process Execution: > /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 03:36:44.190: interpreterPackages getPackageInformation, Class name = Kd, completed in 943ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/bin/python3","sysPrefix":"/usr","displayPath":{"$mid":1,"fsPath":"/bin/python3","path":"/bin/python3","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/bin/python3","external":"file:///bin/python3","path":"/bin/python3","scheme":"file"},"displayName":"","envType":"Unknown","isCondaEnvWithoutPython":false,"version":{"major":3,"minor":10,"patch":6,"raw":"3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]"}}} [su [Error]: Module 'pip' not installed.
+	at au.execModule (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:27794)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Kd.getPackageInformation (/home/mikosta/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:19123)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 04:21:45.476: Ending debug session 4fdb8fb2-55dd-4459-a5db-9ac8814839e3
+info 04:21:45.476: Ending debug session 4fdb8fb2-55dd-4459-a5db-9ac8814839e3
+info 04:36:10.319: Shutting down notebooks for 92dedc4e-9280-4820-9a9f-06a1d0c921de
+info 04:36:10.320: Disposing HostJupyterExecution fe100357-7349-4188-acea-6ad4751e219e
+info 04:36:10.324: Disposing HostJupyterExecution fe100357-7349-4188-acea-6ad4751e219e
